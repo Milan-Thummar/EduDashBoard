@@ -1,5 +1,7 @@
 function App() {
-  return <div>Edu Dashboard</div>;
+  return (
+    <div className="text-3xl font-bold text-blue-500 p-4">Edu Dashboard</div>
+  );
 }
 
 export default App;
