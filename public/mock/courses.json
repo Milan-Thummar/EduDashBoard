@@ -1,0 +1,803 @@
+[
+  {
+    "id": 1,
+    "title": "Advanced React Development",
+    "description": "Master modern React patterns including hooks, context architecture, performance optimization strategies, and scalable component design used in real-world production applications.",
+    "image": "/images/courses/react-advanced.jpg",
+    "rating": 4.7,
+    "ratingCount": 523966,
+    "badge": "Most Viewed",
+    "status": "notStarted",
+    "details": [
+      "Deep dive into hooks and advanced reusable patterns",
+      "Design scalable context architecture for large applications",
+      "Optimize rendering performance using memoization strategies",
+      "Build production-ready projects with real world scenarios"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Design Fundamentals",
+    "description": "Learn core UX principles, layout systems, accessibility standards, and practical workflows used by designers to create clear, user-centered digital experiences.",
+    "image": "/images/courses/ui-ux-design.jpg",
+    "rating": 4.6,
+    "ratingCount": 120,
+    "status": "notStarted",
+    "details": [
+      "Understand fundamental design and usability principles",
+      "Create wireframes and low-fidelity prototypes effectively",
+      "Apply accessibility guidelines and inclusive design practices",
+      "Work efficiently using modern Figma workflows and components"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Mastery",
+    "description": "Explore advanced JavaScript concepts including ES6+, asynchronous programming, architecture patterns, and techniques used to build maintainable applications.",
+    "image": "/images/courses/javascript-mastery.jpg",
+    "rating": 4.7,
+    "ratingCount": 265,
+    "badge": "Bestseller",
+    "status": "completed",
+    "details": [
+      "Master ES6+ features and modern language capabilities",
+      "Understand async flows including promises and concurrency",
+      "Apply architecture patterns for scalable frontend systems",
+      "Practice interview-level coding scenarios and exercises"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Data Science Essentials",
+    "description": "Gain a practical introduction to data science covering statistics, data visualization techniques, and foundational machine learning workflows.",
+    "image": "/images/courses/data-science.jpg",
+    "rating": 4.5,
+    "ratingCount": 980,
+    "badge": "Bestseller",
+    "status": "completed",
+    "details": [
+      "Learn core statistics concepts used in data analysis",
+      "Create meaningful data visualizations and dashboards",
+      "Understand machine learning fundamentals and terminology",
+      "Work with notebooks and real datasets for hands-on practice"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Mobile App Development",
+    "description": "Build cross-platform mobile applications using modern frameworks, navigation patterns, and production-ready architecture approaches.",
+    "image": "/images/courses/mobile-development.jpg",
+    "rating": 4.3,
+    "ratingCount": 170,
+    "status": "notStarted",
+    "details": [
+      "Learn React Native fundamentals and project structure",
+      "Implement navigation flows and screen architecture",
+      "Manage application state across complex mobile apps",
+      "Prepare and publish apps to app stores successfully"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Product Management Bootcamp",
+    "description": "Understand the complete product lifecycle from discovery to delivery, including roadmapping, prioritization, and agile collaboration practices.",
+    "image": "/images/courses/product-management.jpg",
+    "rating": 4.4,
+    "ratingCount": 1420,
+    "badge": "Bestseller",
+    "status": "notStarted",
+    "details": [
+      "Explore product lifecycle stages and strategy planning",
+      "Create clear roadmaps and prioritization frameworks",
+      "Apply agile methodologies including Scrum workflows",
+      "Improve stakeholder communication and alignment skills"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Node.js Backend Development",
+    "description": "Learn how to design and build scalable backend APIs using Node.js, Express, database integrations, and authentication patterns.",
+    "image": "/images/courses/react-advanced.jpg",
+    "rating": 4.6,
+    "ratingCount": 860,
+    "status": "inProgress",
+    "details": [
+      "Design REST APIs with clear architecture principles",
+      "Structure Express applications for scalability",
+      "Integrate databases and manage data effectively",
+      "Implement authentication and authorization strategies"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "TypeScript for Professionals",
+    "description": "Develop type-safe applications using advanced TypeScript features, generics, architectural patterns, and real production examples.",
+    "image": "/images/courses/ui-ux-design.jpg",
+    "rating": 4.8,
+    "ratingCount": 2100,
+    "badge": "Bestseller",
+    "status": "completed",
+    "details": [
+      "Use advanced types to model complex application logic",
+      "Apply generics to build reusable abstractions",
+      "Design type-safe architecture for large codebases",
+      "Build real projects using professional TypeScript patterns"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Frontend System Design",
+    "description": "Learn how to design scalable frontend architecture, component systems, state management strategies, and performance-focused solutions.",
+    "image": "/images/courses/javascript-mastery.jpg",
+    "rating": 4.5,
+    "ratingCount": 540,
+    "status": "notStarted",
+    "details": [
+      "Design modular component architecture for scalability",
+      "Choose appropriate state management strategies",
+      "Apply performance thinking during system design decisions",
+      "Study real case studies from production frontend systems"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "AI for Product Managers",
+    "description": "Understand how artificial intelligence impacts product strategy, feature prioritization, and decision-making across modern digital products.",
+    "image": "/images/courses/product-management.jpg",
+    "rating": 4.4,
+    "ratingCount": 330,
+    "status": "notStarted",
+    "details": [
+      "Learn AI fundamentals relevant for product leaders",
+      "Identify meaningful AI use cases for products",
+      "Define AI product strategy and roadmap decisions",
+      "Understand ethical considerations and risks of AI"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Advanced CSS & Animations",
+    "description": "Create modern, responsive interfaces with advanced CSS layout techniques, meaningful animations, and micro-interactions that improve user experience without sacrificing performance.",
+    "image": "/images/courses/javascript-mastery.jpg",
+    "rating": 4.7,
+    "ratingCount": 970,
+    "badge": "Trending",
+    "status": "notStarted",
+    "details": [
+      "Build complex layouts using Grid, Flexbox, and modern CSS tools",
+      "Create smooth animations with practical motion guidelines",
+      "Design micro-interactions that enhance usability and feedback",
+      "Improve performance with GPU-friendly animation techniques"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "System Design Fundamentals",
+    "description": "Learn core system design principles used in real-world products, including scalability, caching, load balancing, and tradeoff-driven architecture decisions that engineers discuss in interviews.",
+    "image": "/images/courses/data-science.jpg",
+    "rating": 4.6,
+    "ratingCount": 1500,
+    "badge": "Most Viewed",
+    "status": "completed",
+    "details": [
+      "Understand scalability patterns and how systems grow over time",
+      "Apply caching strategies to improve speed and reduce cost",
+      "Explore load balancing approaches and reliability concepts",
+      "Practice architecture tradeoffs using realistic case studies"
+    ]
+  },
+
+  {
+    "id": 13,
+    "title": "React Performance Patterns",
+    "description": "Learn practical strategies to optimize rendering, state updates, and UI responsiveness in React applications, including profiling techniques and patterns used in production-scale apps.",
+    "image": "/images/courses/react-advanced.jpg",
+    "rating": 4.6,
+    "ratingCount": 820,
+    "badge": "Trending",
+    "status": "inProgress",
+    "details": [
+      "Profile real UI bottlenecks using React DevTools effectively",
+      "Apply memoization patterns to prevent unnecessary renders",
+      "Use virtualization for large lists and heavy UI screens",
+      "Improve perceived performance through UX-focused techniques"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Design Systems in Practice",
+    "description": "Build and maintain scalable design systems with tokens, reusable components, documentation, and governance processes that keep product teams aligned across multiple platforms.",
+    "image": "/images/courses/javascript-mastery.jpg",
+    "rating": 4.7,
+    "ratingCount": 690,
+    "badge": "Editor’s Pick",
+    "status": "completed",
+    "details": [
+      "Define design tokens for color, typography, spacing, and motion",
+      "Create reusable components with clear usage guidelines",
+      "Document your system to support adoption across teams",
+      "Set governance practices for updates and long-term consistency"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Modern JavaScript Patterns",
+    "description": "Explore modern JavaScript patterns that improve maintainability and clarity, including modular architecture, composition techniques, immutability, and practical approaches for scaling codebases.",
+    "image": "/images/courses/ui-ux-design.jpg",
+    "rating": 4.5,
+    "ratingCount": 540,
+    "badge": "Popular",
+    "status": "notStarted",
+    "details": [
+      "Use module patterns and organize code for long-term scalability",
+      "Apply composition over inheritance using practical examples",
+      "Work with immutable data patterns for predictable behavior",
+      "Refactor legacy code into clean, readable modern JavaScript"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Data Visualization with D3",
+    "description": "Create interactive and expressive data visualizations using D3, including scalable charts, transitions, and dashboard-ready components that communicate insights clearly.",
+    "image": "/images/courses/data-science.jpg",
+    "rating": 4.4,
+    "ratingCount": 310,
+    "badge": "New",
+    "status": "notStarted",
+    "details": [
+      "Build common charts with scales, axes, and layouts in D3",
+      "Add interaction and tooltips that improve readability",
+      "Create transitions and animations that support understanding",
+      "Package chart logic into reusable dashboard components"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "React Native Advanced",
+    "description": "Go beyond basics and build polished mobile experiences using advanced navigation patterns, animation libraries, performance optimization techniques, and native integrations for production apps.",
+    "image": "/images/courses/mobile-development.jpg",
+    "rating": 4.5,
+    "ratingCount": 420,
+    "badge": "Trending",
+    "status": "inProgress",
+    "details": [
+      "Optimize app responsiveness with performance-focused practices",
+      "Build complex navigation flows with deep linking support",
+      "Integrate native modules and device capabilities safely",
+      "Create smooth animations and gestures for premium UX"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Product Discovery Workshop",
+    "description": "Learn a structured product discovery process to validate ideas faster, reduce risk, and align stakeholders through research, hypothesis testing, prototyping, and measurable outcomes.",
+    "image": "/images/courses/product-management.jpg",
+    "rating": 4.6,
+    "ratingCount": 380,
+    "badge": "Editor’s Pick",
+    "status": "completed",
+    "details": [
+      "Conduct user interviews and synthesize insights effectively",
+      "Write hypotheses and design experiments for validation",
+      "Prototype solutions quickly to gather early feedback",
+      "Translate discovery results into roadmap-ready decisions"
+    ]
+  },
+
+  {
+    "id": 19,
+    "title": "Testing React Applications",
+    "description": "Build confidence in UI changes by learning modern testing strategies for React apps, including unit tests, integration tests, and end-to-end testing workflows used in production teams.",
+    "image": "/images/courses/react-advanced.jpg",
+    "rating": 4.7,
+    "ratingCount": 900,
+    "badge": "Bestseller",
+    "status": "completed",
+    "details": [
+      "Write maintainable tests using React Testing Library patterns",
+      "Mock APIs and state to validate real user interactions",
+      "Add end-to-end coverage for critical product flows",
+      "Improve reliability using test structure and best practices"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "UX Research Basics",
+    "description": "Learn how to run lightweight research that supports design decisions, including interviews, surveys, usability tests, and synthesis methods that turn observations into actionable insights.",
+    "image": "/images/courses/javascript-mastery.jpg",
+    "rating": 4.3,
+    "ratingCount": 260,
+    "badge": "New",
+    "status": "notStarted",
+    "details": [
+      "Plan and conduct interviews with clear research goals",
+      "Create surveys that reduce bias and improve signal quality",
+      "Run usability sessions to identify friction and confusion",
+      "Synthesize insights into themes, needs, and opportunities"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Async JavaScript Deep Dive",
+    "description": "Master asynchronous JavaScript patterns and concurrency concepts to build responsive applications, including promises, async/await, scheduling, and strategies for controlling complex workflows.",
+    "image": "/images/courses/ui-ux-design.jpg",
+    "rating": 4.6,
+    "ratingCount": 740,
+    "badge": "Most Viewed",
+    "status": "completed",
+    "details": [
+      "Understand promises and build reliable async workflows",
+      "Handle concurrency and rate limits without brittle code",
+      "Use async/await safely with proper error boundaries",
+      "Design queues and orchestration patterns for real applications"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Machine Learning Foundations",
+    "description": "Get a practical introduction to machine learning concepts, including model training, evaluation, and common pitfalls, with a focus on understanding workflows rather than heavy math.",
+    "image": "/images/courses/data-science.jpg",
+    "rating": 4.4,
+    "ratingCount": 610,
+    "badge": "Popular",
+    "status": "notStarted",
+    "details": [
+      "Learn the ML lifecycle from data preparation to evaluation",
+      "Understand common model types and their use cases",
+      "Interpret metrics and avoid common evaluation mistakes",
+      "Explore deployment considerations and real-world limitations"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Flutter for Beginners",
+    "description": "Learn how to build cross-platform mobile apps with Flutter, covering widgets, layouts, state basics, and navigation patterns to create clean, responsive mobile user interfaces.",
+    "image": "/images/courses/mobile-development.jpg",
+    "rating": 4.2,
+    "ratingCount": 180,
+    "badge": "New",
+    "status": "notStarted",
+    "details": [
+      "Understand widgets and build reusable UI building blocks",
+      "Create responsive layouts that adapt to multiple screens",
+      "Manage state using beginner-friendly approaches",
+      "Implement navigation flows and basic app architecture"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Agile Product Strategy",
+    "description": "Develop strategy inside agile teams by learning roadmapping approaches, prioritization frameworks, OKRs, and communication patterns that keep teams aligned while delivering iteratively.",
+    "image": "/images/courses/product-management.jpg",
+    "rating": 4.5,
+    "ratingCount": 470,
+    "badge": "Trending",
+    "status": "inProgress",
+    "details": [
+      "Build roadmaps that connect outcomes to delivery plans",
+      "Prioritize features using practical frameworks and tradeoffs",
+      "Define measurable OKRs and track progress effectively",
+      "Align stakeholders through clear communication and artifacts"
+    ]
+  },
+
+  {
+    "id": 25,
+    "title": "React Server Components",
+    "description": "Explore modern React architecture with server components, streaming UI, caching patterns, and performance benefits, with practical guidance on when to use server-side rendering techniques.",
+    "image": "/images/courses/react-advanced.jpg",
+    "rating": 4.6,
+    "ratingCount": 520,
+    "badge": "Trending",
+    "status": "notStarted",
+    "details": [
+      "Understand server components and how they change rendering",
+      "Use streaming and suspense for fast perceived performance",
+      "Apply caching patterns to reduce load and speed up requests",
+      "Choose the right rendering strategy for real product needs"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Accessibility for Designers",
+    "description": "Design inclusive experiences by learning accessibility foundations, including contrast, keyboard flows, screen reader considerations, and accessible patterns that improve usability for everyone.",
+    "image": "/images/courses/javascript-mastery.jpg",
+    "rating": 4.7,
+    "ratingCount": 350,
+    "badge": "Editor’s Pick",
+    "status": "completed",
+    "details": [
+      "Apply contrast, typography, and spacing for readability",
+      "Design keyboard-first flows and clear focus states",
+      "Understand screen reader expectations and semantic structure",
+      "Use accessible patterns for forms, navigation, and dialogs"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Advanced TypeScript Patterns",
+    "description": "Level up TypeScript skills with advanced type modeling, generics, and architectural patterns that increase safety and developer speed in large-scale production applications.",
+    "image": "/images/courses/ui-ux-design.jpg",
+    "rating": 4.8,
+    "ratingCount": 1100,
+    "badge": "Bestseller",
+    "status": "completed",
+    "details": [
+      "Model complex domains using advanced and utility types",
+      "Build reusable abstractions with generics and constraints",
+      "Improve API safety with strict typing and inference",
+      "Design scalable type-safe patterns for large codebases"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Statistics for Developers",
+    "description": "Learn statistics concepts that help you interpret data and experiments, including distributions, confidence intervals, regression basics, and A/B testing fundamentals for product decisions.",
+    "image": "/images/courses/data-science.jpg",
+    "rating": 4.3,
+    "ratingCount": 290,
+    "badge": "Popular",
+    "status": "notStarted",
+    "details": [
+      "Understand distributions and summary statistics in practice",
+      "Interpret confidence intervals and avoid common misreads",
+      "Learn regression basics and when to apply them responsibly",
+      "Run and evaluate A/B tests with correct decision-making"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "SwiftUI Fundamentals",
+    "description": "Build modern iOS interfaces using SwiftUI, including layouts, state management, navigation, and animations that follow Apple’s design conventions and improve app consistency.",
+    "image": "/images/courses/mobile-development.jpg",
+    "rating": 4.4,
+    "ratingCount": 240,
+    "badge": "New",
+    "status": "notStarted",
+    "details": [
+      "Create responsive views with SwiftUI layout primitives",
+      "Manage state and data flow using recommended patterns",
+      "Implement navigation and reusable component structures",
+      "Add animations and transitions for polished interactions"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Product Analytics",
+    "description": "Learn how to measure product success using event tracking, funnels, retention analysis, and actionable insights that guide prioritization and improve decision-making across teams.",
+    "image": "/images/courses/product-management.jpg",
+    "rating": 4.5,
+    "ratingCount": 560,
+    "badge": "Most Viewed",
+    "status": "inProgress",
+    "details": [
+      "Define event schemas that support trustworthy measurement",
+      "Analyze funnels and identify drop-off opportunities",
+      "Measure retention and cohort behavior to understand value",
+      "Turn analytics into insights and clear product actions"
+    ]
+  },
+
+  {
+    "id": 31,
+    "title": "State Management in React",
+    "description": "Choose the right state approach for your app by understanding tradeoffs between Context, reducers, external stores, and modern patterns that keep UI predictable and maintainable.",
+    "image": "/images/courses/react-advanced.jpg",
+    "rating": 4.6,
+    "ratingCount": 780,
+    "badge": "Popular",
+    "status": "completed",
+    "details": [
+      "Structure state for clarity using reducers and derived state",
+      "Use Context safely without unnecessary re-renders",
+      "Evaluate store libraries and understand when they help",
+      "Apply patterns that scale across real production features"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Motion Design for UI",
+    "description": "Design meaningful motion that supports user understanding by learning timing, easing, and interaction-driven animations that feel polished, consistent, and accessible across interfaces.",
+    "image": "/images/courses/javascript-mastery.jpg",
+    "rating": 4.5,
+    "ratingCount": 310,
+    "badge": "Trending",
+    "status": "notStarted",
+    "details": [
+      "Use timing and easing to create natural-feeling animations",
+      "Design transitions that explain changes in UI state",
+      "Create micro-interactions that add clarity without distraction",
+      "Apply motion guidelines that support accessibility needs"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Node Architecture Patterns",
+    "description": "Learn backend architecture patterns for Node.js applications, including layered design, dependency injection, queues, and scaling approaches that improve reliability and maintainability.",
+    "image": "/images/courses/ui-ux-design.jpg",
+    "rating": 4.6,
+    "ratingCount": 640,
+    "badge": "Editor’s Pick",
+    "status": "completed",
+    "details": [
+      "Structure backend services with clean layers and boundaries",
+      "Use dependency injection patterns for testable codebases",
+      "Add queues and background processing for scalability",
+      "Apply scaling strategies and reliability best practices"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Data Engineering Basics",
+    "description": "Understand how data pipelines work by learning ETL concepts, streaming vs batch workflows, warehouse fundamentals, and data quality practices used by modern data teams.",
+    "image": "/images/courses/data-science.jpg",
+    "rating": 4.3,
+    "ratingCount": 200,
+    "badge": "New",
+    "status": "notStarted",
+    "details": [
+      "Learn ETL concepts and how pipelines move data reliably",
+      "Understand batch and streaming architectures in practice",
+      "Explore data warehouse concepts and common tooling patterns",
+      "Apply data quality checks and monitoring for trustworthy data"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Android Architecture",
+    "description": "Build modern Android applications using clean architecture patterns, testing strategies, and scalable app structure approaches that help teams ship stable features faster.",
+    "image": "/images/courses/mobile-development.jpg",
+    "rating": 4.4,
+    "ratingCount": 410,
+    "badge": "Trending",
+    "status": "inProgress",
+    "details": [
+      "Understand MVVM and modern Android architecture patterns",
+      "Manage data flow using recommended state approaches",
+      "Implement dependency injection to keep code modular",
+      "Add testing strategies for stable, maintainable mobile apps"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Product Leadership",
+    "description": "Develop leadership skills for product roles by learning vision setting, strategy alignment, coaching techniques, and execution habits that help teams deliver impactful outcomes.",
+    "image": "/images/courses/product-management.jpg",
+    "rating": 4.7,
+    "ratingCount": 500,
+    "badge": "Bestseller",
+    "status": "completed",
+    "details": [
+      "Set product vision and translate it into clear priorities",
+      "Align teams using strategy narratives and decision frameworks",
+      "Coach collaborators through feedback and continuous learning",
+      "Execute effectively with rituals, planning, and accountability"
+    ]
+  },
+
+  {
+    "id": 37,
+    "title": "Next.js Production Guide",
+    "description": "Ship scalable web applications using Next.js by learning routing, rendering strategies, caching behavior, and deployment best practices that support performance and reliability in production.",
+    "image": "/images/courses/react-advanced.jpg",
+    "rating": 4.7,
+    "ratingCount": 890,
+    "badge": "Most Viewed",
+    "status": "completed",
+    "details": [
+      "Choose SSR, SSG, or ISR based on product and SEO needs",
+      "Structure routing and layouts for maintainable applications",
+      "Use caching strategies to improve speed and reduce cost",
+      "Deploy confidently using production-focused checklists"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Design Critique Mastery",
+    "description": "Run effective design critiques that improve outcomes by learning feedback frameworks, facilitation techniques, and structured decision-making that supports clarity and team alignment.",
+    "image": "/images/courses/javascript-mastery.jpg",
+    "rating": 4.5,
+    "ratingCount": 260,
+    "badge": "Editor’s Pick",
+    "status": "notStarted",
+    "details": [
+      "Use critique frameworks to keep feedback constructive and clear",
+      "Facilitate critique sessions that respect time and focus",
+      "Turn feedback into decisions and actionable next steps",
+      "Improve collaboration by building a healthy critique culture"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Functional Programming JS",
+    "description": "Learn functional programming techniques in JavaScript to write predictable, testable code, including pure functions, composition, immutability, and practical approaches to managing side effects.",
+    "image": "/images/courses/ui-ux-design.jpg",
+    "rating": 4.6,
+    "ratingCount": 530,
+    "badge": "Popular",
+    "status": "inProgress",
+    "details": [
+      "Write pure functions and reason about predictable behavior",
+      "Use composition patterns to build reusable logic blocks",
+      "Apply immutability for safer state transformations",
+      "Manage side effects with patterns that keep code understandable"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Time Series Analysis",
+    "description": "Analyze time-based data using practical forecasting techniques, including seasonality, trends, evaluation metrics, and modeling approaches that help you make better predictions from real datasets.",
+    "image": "/images/courses/data-science.jpg",
+    "rating": 4.4,
+    "ratingCount": 220,
+    "badge": "New",
+    "status": "notStarted",
+    "details": [
+      "Understand trends and seasonality in time-based datasets",
+      "Choose forecasting approaches based on problem constraints",
+      "Evaluate models using appropriate metrics and baselines",
+      "Avoid common pitfalls like leakage and overfitting in forecasts"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Mobile Performance",
+    "description": "Improve mobile user experience by learning performance profiling, rendering optimization, networking best practices, and battery-conscious techniques that make apps feel faster and smoother.",
+    "image": "/images/courses/mobile-development.jpg",
+    "rating": 4.5,
+    "ratingCount": 360,
+    "badge": "Trending",
+    "status": "inProgress",
+    "details": [
+      "Profile performance bottlenecks using practical tooling",
+      "Optimize rendering and navigation for responsive UX",
+      "Reduce network cost with caching and smarter request patterns",
+      "Apply battery-friendly optimizations without reducing quality"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Growth Product Experiments",
+    "description": "Learn how to run measurable product growth experiments using hypothesis-driven thinking, A/B testing fundamentals, and metric selection that ensures experiments lead to reliable decisions.",
+    "image": "/images/courses/product-management.jpg",
+    "rating": 4.6,
+    "ratingCount": 420,
+    "badge": "Most Viewed",
+    "status": "completed",
+    "details": [
+      "Form hypotheses that connect user behavior to outcomes",
+      "Design experiments with clear metrics and success criteria",
+      "Analyze results responsibly and avoid misleading conclusions",
+      "Operationalize learnings into product and roadmap decisions"
+    ]
+  },
+
+  {
+    "id": 43,
+    "title": "React Animation Techniques",
+    "description": "Build delightful UI motion in React using modern animation approaches, including layout transitions and performance-aware patterns, while maintaining accessibility and consistent interaction feedback.",
+    "image": "/images/courses/react-advanced.jpg",
+    "rating": 4.6,
+    "ratingCount": 310,
+    "badge": "Trending",
+    "status": "notStarted",
+    "details": [
+      "Create layout animations that keep interfaces feeling smooth",
+      "Use animation patterns that respect performance constraints",
+      "Design consistent motion rules across multiple components",
+      "Improve accessibility by respecting reduced motion preferences"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Design Ops Foundations",
+    "description": "Learn how design organizations scale by improving processes, tooling, documentation, and collaboration patterns that reduce friction and help teams produce consistent outcomes faster.",
+    "image": "/images/courses/javascript-mastery.jpg",
+    "rating": 4.4,
+    "ratingCount": 190,
+    "badge": "New",
+    "status": "notStarted",
+    "details": [
+      "Establish processes that improve speed without sacrificing quality",
+      "Select tools and workflows that support consistent collaboration",
+      "Create documentation that supports onboarding and adoption",
+      "Track metrics that help design teams continuously improve"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Web Security Basics",
+    "description": "Learn core web security concepts and common vulnerabilities, including XSS, CSRF, authentication risks, and practical protections that help you ship safer web applications.",
+    "image": "/images/courses/ui-ux-design.jpg",
+    "rating": 4.7,
+    "ratingCount": 620,
+    "badge": "Bestseller",
+    "status": "completed",
+    "details": [
+      "Understand authentication basics and common security pitfalls",
+      "Prevent XSS with safe rendering patterns and sanitization",
+      "Mitigate CSRF using recommended token strategies",
+      "Apply security best practices across APIs, cookies, and sessions"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Big Data Concepts",
+    "description": "Explore big data fundamentals including distributed processing, storage patterns, and pipeline concepts that help you understand how organizations work with large-scale datasets efficiently.",
+    "image": "/images/courses/data-science.jpg",
+    "rating": 4.3,
+    "ratingCount": 210,
+    "badge": "Popular",
+    "status": "notStarted",
+    "details": [
+      "Understand distributed processing and why it’s needed at scale",
+      "Explore storage patterns and data formats used in big data systems",
+      "Learn pipeline concepts including orchestration and scheduling",
+      "Recognize tradeoffs in cost, latency, and reliability decisions"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Cross-Platform Architecture",
+    "description": "Design shared codebases across platforms by learning monorepo practices, shared UI patterns, build tooling, and testing strategies that reduce duplication while keeping experiences consistent.",
+    "image": "/images/courses/mobile-development.jpg",
+    "rating": 4.5,
+    "ratingCount": 330,
+    "badge": "Editor’s Pick",
+    "status": "inProgress",
+    "details": [
+      "Structure monorepos and shared packages with clear boundaries",
+      "Build shared UI components while respecting platform conventions",
+      "Manage build tooling and dependency strategies across platforms",
+      "Add testing practices that ensure consistent behavior everywhere"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Stakeholder Communication",
+    "description": "Improve cross-functional collaboration by learning stakeholder communication techniques, including writing clear narratives, alignment workshops, decision-making frameworks, and presentation structures.",
+    "image": "/images/courses/product-management.jpg",
+    "rating": 4.6,
+    "ratingCount": 410,
+    "badge": "Most Viewed",
+    "status": "completed",
+    "details": [
+      "Write clear narratives that explain problems and proposed solutions",
+      "Run alignment workshops that produce measurable decisions",
+      "Communicate tradeoffs and constraints without losing trust",
+      "Present updates in a structured, outcome-focused way"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "React Architecture Patterns",
+    "description": "Learn how to structure large React applications with clear boundaries, reusable patterns, and scalable conventions that help teams ship features faster while keeping code maintainable.",
+    "image": "/images/courses/react-advanced.jpg",
+    "rating": 4.7,
+    "ratingCount": 780,
+    "badge": "Trending",
+    "status": "completed",
+    "details": [
+      "Define app structure and boundaries for long-term scalability",
+      "Create reusable component patterns that support feature growth",
+      "Build clean data flows that avoid tangled dependencies",
+      "Apply conventions that improve team onboarding and velocity"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Advanced Interaction Design",
+    "description": "Design complex user flows with strong interaction principles, edge-case handling, and feedback patterns that reduce confusion and improve confidence across multi-step tasks and dashboards.",
+    "image": "/images/courses/javascript-mastery.jpg",
+    "rating": 4.6,
+    "ratingCount": 290,
+    "badge": "Editor’s Pick",
+    "status": "notStarted",
+    "details": [
+      "Design multi-step flows with clear state and user feedback",
+      "Handle edge cases gracefully without breaking user trust",
+      "Use progressive disclosure to reduce cognitive load",
+      "Prototype and validate interaction decisions with realistic scenarios"
+    ]
+  }
+]
