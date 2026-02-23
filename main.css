@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-sans;
+  }
+
+  body {
+    @apply bg-color-background-page/30 text-color-text-primary antialiased;
+  }
+}
+
+@layer components {
+  /* Layout */
+  .ui-container {
+    @apply mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Buttons */
+  .ui-btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-3 text-sm font-bold transition;
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-focus-ring focus-visible:ring-offset-2 focus-visible:ring-offset-color-background-page;
+    @apply disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  /* button-regular */
+  .ui-btn-primary {
+    @apply ui-btn bg-color-action-primary text-color-text-inverse hover:bg-color-action-primary-hover shadow-sm;
+  }
+
+  /* button-outline */
+  .ui-btn-outline {
+    @apply ui-btn bg-transparent border border-color-action-primary text-color-action-primary hover:bg-color-action-primary-subtle;
+  }
+
+  /* Navigation */
+  .ui-navlink {
+    @apply text-sm font-medium text-color-nav-item hover:text-color-nav-item-active transition cursor-pointer;
+  }
+
+  .ui-navlink-active {
+    @apply text-color-nav-item-active;
+  }
+}
