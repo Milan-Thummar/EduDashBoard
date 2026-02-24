@@ -15,7 +15,7 @@
 @layer components {
   /* Layout */
   .ui-container {
-    @apply mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8;
+    @apply mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8 py-8;
   }
 
   /* Buttons */
@@ -25,12 +25,10 @@
     @apply disabled:opacity-50 disabled:pointer-events-none;
   }
 
-  /* button-regular */
   .ui-btn-primary {
     @apply ui-btn bg-color-action-primary text-color-text-inverse hover:bg-color-action-primary-hover shadow-sm;
   }
 
-  /* button-outline */
   .ui-btn-outline {
     @apply ui-btn bg-transparent border border-color-action-primary text-color-action-primary hover:bg-color-action-primary-subtle;
   }
@@ -42,5 +40,18 @@
 
   .ui-navlink-active {
     @apply text-color-nav-item-active;
+  }
+
+  /* Cards */
+  .ui-card {
+    @apply bg-color-background-card border border-color-border-default rounded-lg shadow-sm;
+  }
+
+  .ui-card-focus {
+    @apply focus-within:ring-2 focus-within:ring-color-focus-ring focus-within:ring-offset-2 focus-within:ring-offset-color-background-page;
+  }
+
+  .ui-card-hover {
+    @apply transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg;
   }
 }

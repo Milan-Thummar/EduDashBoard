@@ -26,6 +26,7 @@ export default {
         xl: ["1.25rem", { lineHeight: "1.85rem" }],
         "2xl": ["1.5rem", { lineHeight: "2.1rem" }],
         "3xl": ["1.875rem", { lineHeight: "2.35rem" }],
+        "4xl": ["2.25rem", { lineHeight: "2.5rem" }],
       },
 
       borderRadius: {

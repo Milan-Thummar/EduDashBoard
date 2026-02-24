@@ -9,7 +9,7 @@ export default function Layout() {
       <main
         id="main"
         tabIndex={-1}
-        className="ui-container py-10 scroll-mt-16 focus:outline-none"
+        className="ui-container scroll-mt-16 focus:outline-none"
       >
         <Outlet />
       </main>
