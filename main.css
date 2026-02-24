@@ -62,7 +62,7 @@
 
   /* Pagination */
   .ui-pagination {
-    @apply mt-9 flex justify-center;
+    @apply mt-8 flex justify-center;
   }
 
   .ui-pagination-list {

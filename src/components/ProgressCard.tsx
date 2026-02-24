@@ -49,6 +49,8 @@ const titleToHint: Record<string, string> = {
   "Not Started": "Pick a course to begin today.",
 };
 
+const emptyHint = "No courses yet — enroll to get started.";
+
 export default function ProgressCard({
   title,
   count,
@@ -136,7 +138,9 @@ export default function ProgressCard({
       </div>
 
       <p className="relative mt-4 text-sm text-color-text-secondary">
-        {titleToHint[title] ?? "Keep learning and make progress."}
+        {total === 0
+          ? emptyHint
+          : titleToHint[title] ?? "Keep learning and make progress."}
       </p>
     </section>
   );

@@ -9,7 +9,7 @@ const PAGE_SIZE = 6;
 
 const pageTitleClass =
   "text-2xl sm:text-3xl font-bold tracking-tight text-color-text-primary";
-const sectionTitleClass = "text-lg sm:text-2xl font-semibold tracking-tight";
+const sectionTitleClass = "text-xl sm:text-2xl font-semibold tracking-tight";
 const helperTextClass = "text-sm text-color-text-secondary";
 const highlightTextClass = "font-semibold text-color-text-primary";
 
@@ -120,14 +120,14 @@ export default function Dashboard() {
       </header>
 
       {/* Progress */}
-      <section aria-labelledby="progress-overview" className="mb-10">
+      <section aria-labelledby="progress-overview" className="mb-8">
         <header className="mb-5">
           <h2 id="progress-overview" className={sectionTitleClass}>
             Course Progress Overview
           </h2>
         </header>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 md:gap-6 md:grid-cols-2 lg:grid-cols-3">
           <ProgressCard
             title="In Progress"
             count={progress.inProgress}
@@ -151,7 +151,7 @@ export default function Dashboard() {
 
       {/* New Courses */}
       <section aria-labelledby="new-courses">
-        <header className="mb-5 flex items-end justify-between gap-4">
+        <header className="mb-5 flex items-center justify-between gap-4">
           <h2 id="new-courses" className={sectionTitleClass}>
             New Courses
           </h2>
