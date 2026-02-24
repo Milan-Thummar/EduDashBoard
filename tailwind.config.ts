@@ -88,7 +88,7 @@ export default {
         "color-success": colors.success.DEFAULT,
         "color-warning": colors.warning.DEFAULT,
 
-        "color-focus-ring": colors.primary[200],
+        "color-focus-ring": colors.primary[400],
       },
     },
   },

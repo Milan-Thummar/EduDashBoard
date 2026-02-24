@@ -47,11 +47,41 @@
     @apply bg-color-background-card border border-color-border-default rounded-lg shadow-sm;
   }
 
-  .ui-card-focus {
-    @apply focus-within:ring-2 focus-within:ring-color-focus-ring focus-within:ring-offset-2 focus-within:ring-offset-color-background-page;
-  }
-
   .ui-card-hover {
     @apply transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg;
+  }
+
+  /* Pills + Badges */
+  .ui-pill {
+    @apply inline-flex items-center gap-2 rounded-lg border border-color-border-default bg-color-background-card px-3 py-1 text-xs font-semibold text-color-text-secondary;
+  }
+
+  .ui-badge {
+    @apply inline-flex items-center rounded-lg bg-color-action-primary-subtle px-3 py-1 text-xs font-semibold text-color-action-primary;
+  }
+
+  /* Pagination */
+  .ui-pagination {
+    @apply mt-9 flex justify-center;
+  }
+
+  .ui-pagination-list {
+    @apply flex flex-wrap items-center justify-center gap-2;
+  }
+
+  .ui-pagination-link {
+    @apply ui-btn ui-btn-outline px-4 py-2 text-sm font-semibold;
+  }
+
+  .ui-pagination-link-active {
+    @apply bg-color-action-primary text-color-text-inverse border-color-action-primary hover:bg-color-action-primary-hover;
+  }
+
+  .ui-pagination-link-disabled {
+    @apply opacity-50 pointer-events-none;
+  }
+
+  .ui-pagination-icon-btn {
+    @apply ui-btn ui-btn-outline px-3 py-2 grid place-items-center;
   }
 }
