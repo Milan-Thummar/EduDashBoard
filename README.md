@@ -11,8 +11,6 @@ A logged-in learning dashboard that allows users to:
 The implementation focuses on **UX clarity, visual consistency, responsive design, and reusable component architecture**.
 The UI was implemented based on a Figma prototype.
 
----
-
 ## 🚀 Implementation Highlights
 
 - Component-driven architecture
@@ -23,8 +21,6 @@ The UI was implemented based on a Figma prototype.
 - Data abstraction layer (`courseService`)
 - Simulated server-side pagination
 - Type-safe domain models
-
----
 
 ## 🛠 Tech Stack
 
@@ -42,8 +38,6 @@ The UI was implemented based on a Figma prototype.
 - Radix UI (Popover)
 - Lucide Icons
 - Skip navigation pattern
-
----
 
 ## 📦 Project Structure (Simplified)
 
@@ -76,8 +70,6 @@ Verify installation:
 node -v
 npm -v
 ```
-
----
 
 ## ⚙️ Setup & Run Instructions
 
@@ -112,22 +104,16 @@ npm run build
 npm run preview
 ```
 
----
-
 ## 🔗 Figma Prototype
 
 **Desktop Screen:** https://www.figma.com/proto/NqOE7HGPc1atEQQLBX95xj/EduDashboard?node-id=1-2&t=vPIZdkDlzhvyvm73-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=226%3A718&hide-ui=1
 
 **Mobile Screen:** https://www.figma.com/proto/NqOE7HGPc1atEQQLBX95xj/EduDashboard?node-id=226-405&t=vPIZdkDlzhvyvm73-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=226%3A718&hide-ui=1
 
----
-
 ## 🔗 Repository
 
 👉 **GitHub Repository:**
 `https://github.com/Milan-Thummar/EduDashBoard.git`
-
----
 
 ## 📊 Data & Pagination Approach
 
@@ -144,8 +130,6 @@ Example API pattern simulated:
 GET /courses?page=2&limit=6
 ```
 
----
-
 ## ♿ Accessibility Considerations
 
 - Semantic HTML structure
@@ -154,8 +138,6 @@ GET /courses?page=2&limit=6
 - Visible focus rings
 - Accessible pagination controls
 - ARIA attributes for progress and navigation
-
----
 
 ## ✨ Possible Future Improvements
 
